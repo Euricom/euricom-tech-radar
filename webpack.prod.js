@@ -1,5 +1,6 @@
 const { merge } = require('webpack-merge')
 const webpack = require('webpack')
+const CopyPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const postcssPresetEnv = require('postcss-preset-env')
 const cssnano = require('cssnano')
@@ -66,6 +67,9 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
+    new CopyPlugin({
+      patterns: [{ from: 'public', to: '.' }],
+    }),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.DefinePlugin({
       'process.env.ENVIRONMENT': JSON.stringify('production'),

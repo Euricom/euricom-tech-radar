@@ -199,4 +199,12 @@ export QUADRANTS='["Techniques", "Platforms", "Tools", "Languages & Frameworks"]
 ## Other tech radars
 
 - https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2Fgitsindonesia%2Ftech-radar%2Fmain%2Ffrontend.json
+- https://opensource.zalando.com/tech-radar/
+- https://tech.inthepocket.com/?domains=backend&domains=xr&domains=mobile
+- https://www.thesio.eu/tech-radar
+- https://tech-radar.preply.com
+
+## Other resources
+
+- https://github.com/zalando/tech-radar
 -

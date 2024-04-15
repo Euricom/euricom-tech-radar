@@ -207,4 +207,5 @@ export QUADRANTS='["Techniques", "Platforms", "Tools", "Languages & Frameworks"]
 ## Other resources
 
 - https://github.com/zalando/tech-radar
--
+
+

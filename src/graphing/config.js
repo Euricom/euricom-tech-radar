@@ -5,7 +5,7 @@ const getQuadrants = () => {
   return (
     JSON.parse(process.env.QUADRANTS || null) || [
       'Techniques',
-      'Platforms & infrastructure',
+      'Libraries',
       'Tools',
       'Languages & Frameworks',
     ]

@@ -1,11 +1,11 @@
 {
-  "date": "2024/4",
+  "date": "2024/6",
   "entries": [
     {
       "quadrant": 0,
       "ring": 0,
       "label": "eslint",
-      "active": false,
+      "active": true,
       "moved": 0
     },
     {
@@ -143,6 +143,13 @@
     },
     {
       "quadrant": 0,
+      "ring": 2,
+      "label": "Nitro",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
       "ring": 3,
       "label": "webpack",
       "active": true,
@@ -219,301 +226,132 @@
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "TypeScript",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "JavaScript",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "Bash",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "Zsh",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "React 18",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "Angular",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 0,
       "label": "VueJS 3.x",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "TanStack Query",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "TanStack Table",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Pinia (Vue3)",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "lucide.dev",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "TRPC",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Testing Library",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Prisma",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "NGRX",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Storybook 8",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "shadcn/ui",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "NextUI",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 1,
       "label": "Astro",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 1,
-      "label": "Radix",
+      "label": "Nuxt 3.x",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "Nuxt",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 1,
       "label": "Remix",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 1,
       "label": "Fastify",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 1,
       "label": "NestJS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "GraphQL",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "Drizzle",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 2,
       "label": "NextJS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 2,
       "label": "Solid",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 2,
       "label": "Svelte",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 2,
       "label": "Rust",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "TanStack Router",
+      "ring": 3,
+      "label": "Nuxt 2.0",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "Partytown",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 3,
       "label": "VueJS 2.x",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 3,
       "label": "Angular JS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
       "ring": 3,
       "label": "Express",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "MomentJS",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 3,
       "label": "Karma",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Axios",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "JQuery",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "TypeORM",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Vuex",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Enzyme",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
       "ring": 3,
       "label": "Angular 16",
       "active": true,
@@ -612,6 +450,13 @@
     },
     {
       "quadrant": 1,
+      "ring": 1,
+      "label": "Conventional Commits",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
       "ring": 2,
       "label": "Web Vitals",
       "active": true,
@@ -674,142 +519,200 @@
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
       "label": "Vercel",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Netlify",
+      "label": "TanStack Query",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Redis",
+      "label": "TanStack Table",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "CircleCI",
+      "label": "Pinia (Vue3)",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Azure Functions",
+      "label": "lucide.dev",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "NGINX",
+      "label": "Testing Library",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Docker",
+      "label": "NGRX",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "MongoDB",
+      "label": "shadcn/ui",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "SQL Server",
+      "label": "Prisma",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Azure Static Web Apps",
+      "label": "Storybook 8",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 0,
-      "label": "Azure Blob Storage",
+      "label": "TRPC",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Sentry",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "AWS S3",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
       "ring": 1,
-      "label": "AWS Lambda",
+      "label": "NextUI",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 1,
-      "label": "AWS SQS",
+      "label": "PandaCss",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 1,
-      "label": "PostgreSQL",
+      "label": "GraphQL",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
+      "ring": 1,
+      "label": "Radix",
+      "active": true,
+      "moved": 0
+    },
+    {
       "ring": 2,
-      "label": "Fly.io",
+      "label": "VueUse",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
       "ring": 2,
-      "label": "CloudFlare",
+      "label": "VeeValidate",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Heroku",
+      "ring": 2,
+      "label": "Formkit (vue)",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
+      "ring": 2,
+      "label": "Drizzle",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "Vuelidate",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "TanStack Router",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "Partytown",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "Quasar",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "Vuetify",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "PrimeNG",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "PrimeVue",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 2,
+      "label": "PrimeReact",
+      "active": true,
+      "moved": 0
+    },
+    {
       "ring": 3,
-      "label": "Jenkins",
+      "label": "MomentJS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 3,
+      "label": "Axios",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 3,
+      "label": "JQuery",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 3,
+      "label": "TypeORM",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 3,
+      "label": "Vuex",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "ring": 3,
+      "label": "Enzyme",
       "active": true,
       "moved": 0
     }

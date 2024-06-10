@@ -41,9 +41,9 @@ function mapQuadrant(quadrant) {
       return 0
     case 'Techniques':
       return 1
-    case 'Languages & frameworks':
+    case 'Languages & Frameworks':
       return 2
-    case 'Platforms & infrastructure':
+    case 'Libraries':
       return 3
   }
 }

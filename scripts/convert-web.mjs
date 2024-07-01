@@ -15,7 +15,11 @@ const zalando = {
       ring: mapRing(item.ring),
       label: item.name,
       active: true,
-      moved: 0,
+      moved: item.moved || 0,
+      // -1 = moved out (triangle pointing down)
+      //  0 = not moved (circle)
+      //  1 = moved in  (triangle pointing up)
+      //  2 = new       (star)
     }
   }),
 }

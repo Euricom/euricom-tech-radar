@@ -15,7 +15,7 @@ const zalando = {
       ring: mapRing(item.ring),
       label: item.name,
       active: true,
-      moved: item.moved || 0,
+      moved: mapMoved(item.moved, item.isNew),
       // -1 = moved out (triangle pointing down)
       //  0 = not moved (circle)
       //  1 = moved in  (triangle pointing up)
@@ -25,6 +25,20 @@ const zalando = {
 }
 
 fs.writeFileSync(path.join(__dirname, '../public/zalando-euricom.json'), JSON.stringify(zalando, null, 2))
+
+function mapMoved(moved, isNew) {
+  if (isNew === 'true') return 2
+  switch (moved) {
+    case 'out':
+      return -1
+    case 'in':
+      return 1
+    case 'new':
+      return 2
+    default:
+      return 0
+  }
+}
 
 function mapRing(ring) {
   switch (ring) {

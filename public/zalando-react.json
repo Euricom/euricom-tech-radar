@@ -4,21 +4,21 @@
     {
       "quadrant": 0,
       "ring": 0,
-      "label": "eslint",
+      "label": "ESlint",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 0,
       "ring": 0,
-      "label": "vite",
+      "label": "Vite",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 0,
       "ring": 0,
-      "label": "prettier",
+      "label": "Prettier",
       "active": true,
       "moved": 0
     },
@@ -87,6 +87,20 @@
     },
     {
       "quadrant": 0,
+      "ring": 0,
+      "label": "Bash/Zsh",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Cypress",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
       "ring": 1,
       "label": "ChatGPT",
       "active": true,
@@ -102,21 +116,14 @@
     {
       "quadrant": 0,
       "ring": 1,
-      "label": "Cypress",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 2,
-      "label": "Web Vitals",
+      "label": "Playwright",
       "active": true,
       "moved": 2
     },
     {
       "quadrant": 0,
       "ring": 2,
-      "label": "Nx",
+      "label": "Web Vitals",
       "active": true,
       "moved": 0
     },
@@ -137,28 +144,28 @@
     {
       "quadrant": 0,
       "ring": 2,
-      "label": "Playwright",
+      "label": "Rspack",
       "active": true,
       "moved": 2
     },
     {
       "quadrant": 0,
       "ring": 3,
-      "label": "webpack",
+      "label": "Webpack",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 0,
       "ring": 3,
-      "label": "parcel",
+      "label": "Parcel",
       "active": true,
       "moved": 0
     },
     {
       "quadrant": 0,
       "ring": 3,
-      "label": "yarn",
+      "label": "Yarn",
       "active": true,
       "moved": 0
     },
@@ -179,13 +186,6 @@
     {
       "quadrant": 0,
       "ring": 3,
-      "label": "vue-cli",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
       "label": "Babel",
       "active": true,
       "moved": 0
@@ -198,226 +198,206 @@
       "moved": 0
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 0,
-      "label": "TypeScript",
+      "label": "React 18",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 0,
-      "label": "JavaScript",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Bash/Zsh",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "React 18+",
+      "label": "T3 Stack",
       "active": true,
       "moved": 2
     },
     {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Angular",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "VueJS 3.x",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 0,
       "label": "Tailwind",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 0,
       "label": "SCSS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 1,
+      "quadrant": 1,
+      "ring": 0,
+      "label": "TanStack Query",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "TanStack Table",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "React Hook Form",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "React Final Form",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Zod",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Jotai",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Zustand",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "React Testing Library",
+      "active": true,
+      "link": "https://testing-library.com/docs/react-testing-library/intro/",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Shadcn/ui",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Storybook",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
       "label": "NextJS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 1,
-      "label": "Fastify",
+      "label": "NextUI",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Radix",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "PrimeReact",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "NestJS",
+      "quadrant": 1,
+      "ring": 1,
+      "label": "DaisyUI",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
-      "ring": 2,
+      "quadrant": 1,
+      "ring": 1,
       "label": "Remix",
       "active": true,
       "moved": 2
     },
     {
-      "quadrant": 2,
-      "ring": 2,
-      "label": "Nuxt",
+      "quadrant": 1,
+      "ring": 1,
+      "label": "TRPC",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 2,
       "label": "Astro",
       "active": true,
       "moved": 2
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 2,
       "label": "StyleX",
       "active": true,
       "moved": 2
     },
     {
-      "quadrant": 2,
+      "quadrant": 1,
       "ring": 2,
-      "label": "Rust",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "VueJS 2.x",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "AngularJS",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Express",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Karma",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "LESS",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "SPA",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Full Stack Application",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Unit Tests",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "CSS Preprocessors",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "PostCSS",
+      "label": "Tanstack Form",
       "active": true,
       "moved": 2
     },
     {
       "quadrant": 1,
-      "ring": 1,
-      "label": "BFF",
+      "ring": 2,
+      "label": "TanStack Router",
       "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "SSR/SSG",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "Server Components",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "Signals",
-      "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
-      "label": "ESLint flat config",
+      "label": "Partytown",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "React 19",
       "active": true,
       "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 3,
-      "label": "PWA",
+      "label": "React 16 (and lower)",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "Mui",
       "active": true,
       "moved": 0
     },
@@ -429,200 +409,270 @@
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "TanStack Query",
+      "quadrant": 1,
+      "ring": 3,
+      "label": "LESS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "TanStack Table",
+      "quadrant": 1,
+      "ring": 3,
+      "label": "Formik",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Pinia (Vue3)",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Testing Library",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "NGRX (Angular)",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "shadcn/ui (React)",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Prisma",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Storybook",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "NextUI",
-      "active": true,
-      "moved": 2
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "PandaCss",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "GraphQL",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Radix",
-      "active": true,
-      "moved": 2
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "PrimeNG",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "PrimeVue",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "TRPC",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "Drizzle",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "TanStack Router",
-      "active": true,
-      "moved": 2
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "Partytown",
-      "active": true,
-      "moved": 2
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "Quasar",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "Vuetify",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "PrimeReact",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
+      "quadrant": 1,
       "ring": 3,
       "label": "Styled Components",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
+      "quadrant": 1,
       "ring": 3,
       "label": "MomentJS",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
+      "quadrant": 1,
       "ring": 3,
       "label": "Axios",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
+      "quadrant": 1,
       "ring": 3,
       "label": "JQuery",
       "active": true,
       "moved": 0
     },
     {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "TypeORM",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 3,
-      "label": "Vuex",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
+      "quadrant": 1,
       "ring": 3,
       "label": "Enzyme",
       "active": true,
       "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "SPA",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Full Stack Application",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Unit Tests",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "E2E Tests",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "PostCSS",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "BFF",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Micro Front-ends",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "SSR/SSG",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "React Server Actions",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "React Server Components (RSC)",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "ESLint flat config",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "CSS Preprocessors",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "PWA",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "Redux",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Docker",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Azure Blob",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Azure Static WebApp",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Azure DevOps",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GitHub Issues",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GitHub",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Sentry",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Vercel",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "GitHub Actions",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "AWS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "GCP",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "Digital Ocean",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "Render",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Netlify",
+      "active": true,
+      "moved": -1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "CircleCI",
+      "active": true,
+      "moved": -1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Heroku",
+      "active": true,
+      "moved": -1
+    },
+    {
+      "quadrant": 3,
+      "ring": 3,
+      "label": "Rollbar",
+      "active": true,
+      "moved": -1
     }
   ]
 }

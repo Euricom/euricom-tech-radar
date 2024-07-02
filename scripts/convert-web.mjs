@@ -3,7 +3,9 @@ import path from 'node:path'
 
 const __dirname = import.meta.dirname
 
-const content = fs.readFileSync(path.join(__dirname, '../public/web.json'))
+const topic = process.argv[2] ?? 'web'
+
+const content = fs.readFileSync(path.join(__dirname, `../public/${topic}.json`))
 const data = JSON.parse(content)
 const today = new Date()
 
@@ -15,16 +17,31 @@ const zalando = {
       ring: mapRing(item.ring),
       label: item.name,
       active: true,
-      moved: item.moved || 0,
-      // -1 = moved out (triangle pointing down)
-      //  0 = not moved (circle)
-      //  1 = moved in  (triangle pointing up)
-      //  2 = new       (star)
+      link: item.link,
+      moved: mapMoved(item.moved, item.isNew),
     }
   }),
 }
 
-fs.writeFileSync(path.join(__dirname, '../public/zalando-web.json'), JSON.stringify(zalando, null, 2))
+fs.writeFileSync(path.join(__dirname, `../public/zalando-${topic}.json`), JSON.stringify(zalando, null, 2))
+
+function mapMoved(moved, isNew) {
+  // -1 = moved out (triangle pointing down)
+  //  0 = not moved (circle)
+  //  1 = moved in  (triangle pointing up)
+  //  2 = new       (star)
+  if (isNew === 'true') return 2
+  switch (moved) {
+    case 'out':
+      return -1
+    case 'in':
+      return 1
+    case 'new':
+      return 2
+    default:
+      return 0
+  }
+}
 
 function mapRing(ring) {
   switch (ring) {
@@ -43,11 +60,11 @@ function mapQuadrant(quadrant) {
   switch (quadrant) {
     case 'Tools':
       return 0
-    case 'Techniques':
+    case 'Libraries & Frameworks':
       return 1
-    case 'Languages & Frameworks':
+    case 'Patterns and Practices':
       return 2
-    case 'Libraries':
+    case 'Platforms & infrastructure':
       return 3
   }
 }

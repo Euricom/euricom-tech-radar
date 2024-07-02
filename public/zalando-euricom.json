@@ -62,14 +62,14 @@
       "ring": 1,
       "label": "GitHub Copilot",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 0,
       "ring": 2,
       "label": "ChatGPT",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 0,
@@ -153,42 +153,42 @@
       "ring": 1,
       "label": "NextJS",
       "active": true,
-      "moved": 1
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Nuxt",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Remix",
       "active": true,
-      "moved": 1
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Blazor",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "MAUI",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 1,
       "ring": 2,
       "label": "Astro",
       "active": true,
-      "moved": 1
+      "moved": 2
     },
     {
       "quadrant": 1,
@@ -321,7 +321,7 @@
       "ring": 1,
       "label": "SSR/SSG",
       "active": true,
-      "moved": 1
+      "moved": 2
     },
     {
       "quadrant": 2,
@@ -419,7 +419,7 @@
       "ring": 1,
       "label": "Vercel",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 3,
@@ -433,14 +433,14 @@
       "ring": 2,
       "label": "GCP",
       "active": true,
-      "moved": 0
+      "moved": 3
     },
     {
       "quadrant": 3,
       "ring": 2,
       "label": "Github Actions",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 3,

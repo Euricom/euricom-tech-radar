@@ -2,16 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zalando Tech Radar</title>
-  <link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Euricom Tech Radar for React: a tool to visualize technology choices, inspire and support Development teams at Euricom to pick the best technologies for new projects">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Euricom Tech Radar - React Development</title>
+<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
 
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="./radar-1.0.js"></script>
-
-<link rel="stylesheet" href="radar.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="./radar-1.0.js"></script>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
 <svg id="radar"></svg>
 
 <script>
-fetch('./zalando-dotnet.json').then(function(response) {
+fetch('./zalando-react.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
@@ -31,12 +29,12 @@ fetch('./zalando-dotnet.json').then(function(response) {
       grid: '#dddde0',
       inactive: "#ddd"
     },
-    title: "Euricom Tech Radar",
+    title: "Euricom Tech Radar - React Dev",
     date: data.date,
     quadrants: [
       { name: "Tools" },
-      { name: "Languages & frameworks" },
-      { name: "Techniques" },
+      { name: "Libraries & Frameworks" },
+      { name: "Patterns and Practices" },
       { name: "Platforms & infrastructure" },
     ],
     rings: [
@@ -77,7 +75,7 @@ The Euricom Tech Radar is a list of technologies, complemented by an assessment 
 <h3>What is the purpose?</h3>
 
 <p>
-The Tech Radar is a tool to inspire and support Developers teams at Euricom to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our Tech Radar sets out the changes in technologies that are interesting in software development &mdash; changes that we think our engineering teams should pay attention to and use in their projects.
+The Tech Radar is a tool to inspire and support Developers teams at Euricom to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Changes that we think our engineering teams should pay attention to and use in their projects.
 </p>
 
 <h3>How do we maintain it?</h3>

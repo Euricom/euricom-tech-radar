@@ -9,9 +9,7 @@
 <link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://zalando.github.io/tech-radar/release/radar-0.8.js"></script>
-
-<!-- <link rel="stylesheet" href="radar.css"> -->
+<script src="./radar-1.0.js"></script>
 </head>
 
 <body>
@@ -35,9 +33,9 @@ fetch('./zalando-web.json').then(function(response) {
     date: data.date,
     quadrants: [
       { name: "Tools" },
+      { name: "Patterns and Practices" },
       { name: "Languages & frameworks" },
-      { name: "Techniques" },
-      { name: "Platforms & infrastructure" },
+      { name: "Libraries" },
     ],
     rings: [
       { name: "ADOPT", color: "#5ba300" },

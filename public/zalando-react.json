@@ -494,6 +494,13 @@
     },
     {
       "quadrant": 2,
+      "ring": 0,
+      "label": "Monorepo",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
       "ring": 1,
       "label": "BFF",
       "active": true,

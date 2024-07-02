@@ -71,6 +71,7 @@
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "Unit Tests", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "E2E Tests", "isNew": "true", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "PostCSS", "isNew": "true", "description": "" },
+  { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "Monorepo", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "BFF", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Micro Front-ends", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "SSR/SSG", "isNew": "false", "description": "" },

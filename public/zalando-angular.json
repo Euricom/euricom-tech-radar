@@ -80,6 +80,13 @@
     },
     {
       "quadrant": 0,
+      "ring": 0,
+      "label": "Yarn",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
       "ring": 1,
       "label": "Pnpm",
       "active": true,
@@ -140,13 +147,6 @@
       "label": "Playwright",
       "active": true,
       "moved": 2
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "Yarn",
-      "active": true,
-      "moved": 0
     },
     {
       "quadrant": 1,
@@ -216,7 +216,7 @@
       "ring": 1,
       "label": "Module Federation",
       "active": true,
-      "moved": 2
+      "moved": 0
     },
     {
       "quadrant": 1,
@@ -277,13 +277,6 @@
     {
       "quadrant": 2,
       "ring": 0,
-      "label": "Full Stack Application",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
       "label": "Unit Tests",
       "active": true,
       "moved": 0
@@ -315,6 +308,20 @@
       "label": "CSS Preprocessors",
       "active": true,
       "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "SSR",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Signals",
+      "active": true,
+      "moved": 2
     },
     {
       "quadrant": 2,

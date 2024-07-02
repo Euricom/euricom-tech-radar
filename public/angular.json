@@ -10,6 +10,7 @@
   { "ring": "adopt", "quadrant": "Tools", "name": "Nx", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Tools", "name": "Jest", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Tools", "name": "Webpack", "isNew": "false", "description": "" },
+  { "ring": "adopt",  "quadrant": "Tools", "name": "Yarn", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Tools", "name": "Pnpm", "isNew": "true", "description": "" },
   { "ring": "trial", "quadrant": "Tools", "name": "Vite", "isNew": "true", "description": "" },
   { "ring": "trial", "quadrant": "Tools", "name": "ChatGPT", "isNew": "true", "description": "" },
@@ -19,7 +20,6 @@
   { "ring": "assess","quadrant": "Tools", "name": "Web Vitals", "isNew": "true", "description": "" },
   { "ring": "assess","quadrant": "Tools", "name": "Deno/Bun", "isNew": "true", "description": "" },
   { "ring": "assess","quadrant": "Tools", "name": "Playwright", "isNew": "true", "description": "" },
-  { "ring": "hold",  "quadrant": "Tools", "name": "Yarn", "isNew": "false", "description": "" },
 
   { "ring": "adopt", "quadrant": "Libraries & Frameworks", "name": "Angular 17", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Libraries & Frameworks", "name": "Tailwind", "isNew": "false", "description": "" },
@@ -45,6 +45,8 @@
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "E2E Tests", "isNew": "true", "description": "" },
   { "ring": "adopt",  "quadrant": "Patterns and Practices", "name": "Redux", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "CSS Preprocessors", "isNew": "false", "description": "CSS preprocessors are scripting languages that extend the default capabilities of CSS, like scss and less" },
+  { "ring": "trial", "quadrant": "Patterns and Practices", "name": "SSR", "isNew": "false", "description": "" },
+  { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Signals", "isNew": "true", "description": "" },
   { "ring": "trial",  "quadrant": "Patterns and Practices", "name": "PWA", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Micro Front-ends", "isNew": "false", "description": "" },
 

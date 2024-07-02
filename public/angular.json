@@ -40,7 +40,6 @@
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Angular 14 (and lower)", "isNew": "false", "description": "" },
 
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "SPA", "isNew": "false", "description": "A Single Page Application (SPA) is a type of web application that loads a single HTML page and dynamically updates that page as the user interacts with the app. SPAs work inside a browser and require no page reloading during use, which tends to result in a more fluid, user-friendly experience." },
-  { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "Full Stack Application", "isNew": "false", "description": "A full-stack application is a software application that encompasses both frontend and backend in a single code base." },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "Unit Tests", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "Monorepo", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "E2E Tests", "isNew": "true", "description": "" },

@@ -249,6 +249,13 @@
     {
       "quadrant": 1,
       "ring": 3,
+      "label": "Protractor",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
       "label": "LESS",
       "active": true,
       "moved": 0

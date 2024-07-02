@@ -30,11 +30,12 @@
   { "ring": "adopt", "quadrant": "Libraries & Frameworks", "name": "RxJS", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Libraries & Frameworks", "name": "PrimeNg", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Libraries & Frameworks", "name": "Clarity", "isNew": "false", "description": "" },
-  { "ring": "trial", "quadrant": "Libraries & Frameworks", "name": "Module Federation", "isNew": "true", "description": "" },
+  { "ring": "trial", "quadrant": "Libraries & Frameworks", "name": "Module Federation", "isNew": "false", "description": "" },
   { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "Angular 18", "isNew": "true", "description": "" },
   { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "Native Federation", "isNew": "true", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "AngularJS", "isNew": "false", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Karma", "isNew": "false", "description": "" },
+  { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Protractor", "isNew": "false", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "LESS", "isNew": "false", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Angular 14 (and lower)", "isNew": "false", "description": "" },
 

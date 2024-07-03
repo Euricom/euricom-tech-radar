@@ -18,6 +18,13 @@
     {
       "quadrant": 0,
       "ring": 0,
+      "label": "TypeScript",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
       "label": "Prettier",
       "active": true,
       "moved": 0
@@ -137,14 +144,22 @@
     {
       "quadrant": 0,
       "ring": 2,
-      "label": "Deno/Bun",
+      "label": "Bun",
       "active": true,
+      "link": "https://bun.sh/",
       "moved": 2
     },
     {
       "quadrant": 0,
       "ring": 2,
       "label": "Rspack",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Deno",
       "active": true,
       "moved": 2
     },
@@ -209,6 +224,7 @@
       "ring": 0,
       "label": "T3 Stack",
       "active": true,
+      "link": "https://create.t3.gg/",
       "moved": 2
     },
     {
@@ -305,6 +321,14 @@
     },
     {
       "quadrant": 1,
+      "ring": 0,
+      "label": "Mui",
+      "active": true,
+      "link": "https://mui.com/",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
       "ring": 1,
       "label": "NextUI",
       "active": true,
@@ -343,6 +367,15 @@
       "ring": 1,
       "label": "TRPC",
       "active": true,
+      "link": "https://trpc.io/",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "SWR",
+      "active": true,
+      "link": " https://swr.vercel.app/",
       "moved": 0
     },
     {
@@ -391,13 +424,6 @@
       "quadrant": 1,
       "ring": 3,
       "label": "React 16 (and lower)",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 3,
-      "label": "Mui",
       "active": true,
       "moved": 0
     },
@@ -572,6 +598,30 @@
     {
       "quadrant": 3,
       "ring": 0,
+      "label": "Azure Entra ID",
+      "active": true,
+      "link": "https://www.microsoft.com/nl-be/security/business/identity-access/microsoft-entra-id",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Auth0",
+      "active": true,
+      "link": "https://auth0.com/",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Keycloak",
+      "active": true,
+      "link": "https://www.keycloak.org/",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
       "label": "Azure Blob",
       "active": true,
       "moved": 0
@@ -607,6 +657,22 @@
     {
       "quadrant": 3,
       "ring": 0,
+      "label": "Gitlab",
+      "active": true,
+      "link": "https://about.gitlab.com/",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Gitlab Pipelines",
+      "active": true,
+      "link": "https://docs.gitlab.com/ee/ci/pipelines/",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
       "label": "Sentry",
       "active": true,
       "moved": 0
@@ -620,22 +686,29 @@
     },
     {
       "quadrant": 3,
-      "ring": 1,
-      "label": "GitHub Actions",
+      "ring": 0,
+      "label": "AWS Amplify",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GCP Cloud Storage",
+      "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GCP App Engine",
       "active": true,
       "moved": 2
     },
     {
       "quadrant": 3,
       "ring": 1,
-      "label": "AWS",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 2,
-      "label": "GCP",
+      "label": "GitHub Actions",
       "active": true,
       "moved": 2
     },

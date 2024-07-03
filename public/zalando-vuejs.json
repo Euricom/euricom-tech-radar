@@ -11,7 +11,21 @@
     {
       "quadrant": 0,
       "ring": 0,
+      "label": "TypeScript",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
       "label": "Vite",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Figma",
       "active": true,
       "moved": 0
     },
@@ -298,6 +312,14 @@
     },
     {
       "quadrant": 1,
+      "ring": 1,
+      "label": "Renovate",
+      "active": true,
+      "link": "https://www.npmjs.com/package/renovate",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
       "ring": 2,
       "label": "Shadcn-vue",
       "active": true,
@@ -511,6 +533,30 @@
       "ring": 0,
       "label": "Vercel",
       "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Azure Entra ID",
+      "active": true,
+      "link": "https://www.microsoft.com/nl-be/security/business/identity-access/microsoft-entra-id",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Identity Server",
+      "active": true,
+      "link": "https://duendesoftware.com/products/identityserver",
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Auth0",
+      "active": true,
+      "link": "https://auth0.com/",
       "moved": 0
     },
     {

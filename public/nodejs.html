@@ -3,9 +3,9 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
+<meta name="description" content="Euricom Tech Radar for Node.js: a tool to visualize technology choices, inspire and support Development teams at Euricom to pick the best technologies for new projects">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Euricom Tech Radar - Node Development</title>
+<title>Euricom Tech Radar - Node.js Development</title>
 <link rel="shortcut icon" href="https://www.euri.com/icons/icon-48x48.png">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -17,7 +17,7 @@
 <svg id="radar"></svg>
 
 <script>
-fetch('./zalando-node.json').then(function(response) {
+fetch('./zalando-nodejs.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
@@ -29,7 +29,7 @@ fetch('./zalando-node.json').then(function(response) {
       grid: '#dddde0',
       inactive: "#ddd"
     },
-    title: "Euricom Tech Radar - Web Dev",
+    title: "Euricom Tech Radar - Node.js Dev",
     date: data.date,
     quadrants: [
       { name: "Tools" },
@@ -75,7 +75,7 @@ The Euricom Tech Radar is a list of technologies, complemented by an assessment 
 <h3>What is the purpose?</h3>
 
 <p>
-The Tech Radar is a tool to inspire and support Developers teams at Euricom to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our Tech Radar sets out the changes in technologies that are interesting in software development &mdash; changes that we think our engineering teams should pay attention to and use in their projects.
+The Tech Radar is a tool to inspire and support Developers teams at Euricom to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Changes that we think our engineering teams should pay attention to and use in their projects.
 </p>
 
 <h3>How do we maintain it?</h3>
@@ -84,13 +84,9 @@ The Tech Radar is a tool to inspire and support Developers teams at Euricom to p
 The Tech Radar is maintained by our <em>Expert Engineers</em> &mdash; who facilitate and drive the technology selection discussions at Euricom across the Engineering Community. Assignment of technologies to rings is the outcome of ring change proposals, which are discussed and voted on. The Tech Radar is open for contribution for all Engineering teams at Euricom and depends on their active participation to share lessons learned, pitfalls, and contribute to good practices on using the technologies.<br/>
 </p>
 
-<!-- <p>
-Check out our <a href="https://engineering.zalando.com/tags/tech-radar.html">Engineering Blog</a> for more information on how we approach Technology Selection and use the Tech Radar at Zalando.
-</p> -->
-
-<!-- <p>
-<em>BTW, if you would like to create your own Tech Radar &mdash; we have <a href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this visualization.</em>
-</p> -->
+<p>
+<em>BTW, if you would like to create your own Tech Radar &mdash; Zalando has <a href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this visualization.</em>
+</p>
 
 </td></tr>
 </table>

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --mode development --config webpack.dev.js",
-    "build:prod": "webpack --mode production --config webpack.prod.js",
+    "build:prod": "webpack --mode production --config webpack.prod.js && npm run build:zalando",
+    "build:zalando": "node ./scripts/convert-web.mjs react && node ./scripts/convert-web.mjs angular && node ./scripts/convert-web.mjs vuejs && node ./scripts/convert-euricom.mjs",
     "dev": "webpack-dev-server --mode development --config webpack.dev.js",
     "test": "jest",
     "test:coverage": "jest --coverage",
@@ -13,8 +14,7 @@
     "test:e2e-headless": "cypress run --browser chrome --record false --env host=$TEST_URL",
     "lint-prettier:check": "eslint . && prettier --check .",
     "lint-prettier:fix": "eslint . --fix && prettier --write .",
-    "quality": "npm run lint-prettier:check && npm run test:coverage",
-    "build:zalando": "node ./scripts/convert.mjs"
+    "quality": "npm run lint-prettier:check && npm run test:coverage"
   },
   "author": "Thoughtworks",
   "repository": {

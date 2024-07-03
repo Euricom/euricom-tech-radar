@@ -18,6 +18,13 @@
     {
       "quadrant": 0,
       "ring": 0,
+      "label": "TypeScript",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
       "label": "VSCode",
       "active": true,
       "moved": 0
@@ -137,7 +144,7 @@
     {
       "quadrant": 0,
       "ring": 2,
-      "label": "Deno/Bun",
+      "label": "Bun",
       "active": true,
       "moved": 2
     },
@@ -188,6 +195,7 @@
       "ring": 0,
       "label": "NgRx",
       "active": true,
+      "link": "https://ngrx.io/",
       "moved": 0
     },
     {
@@ -202,6 +210,15 @@
       "ring": 0,
       "label": "PrimeNg",
       "active": true,
+      "link": "https://primeng.org/",
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "ngx-translate",
+      "active": true,
+      "link": "https://github.com/ngx-translate/core",
       "moved": 0
     },
     {
@@ -230,6 +247,22 @@
       "ring": 2,
       "label": "Native Federation",
       "active": true,
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Analog.js",
+      "active": true,
+      "link": "https://analogjs.org/",
+      "moved": 2
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "NgRx SignalStore",
+      "active": true,
+      "link": "https://ngrx.io/guide/signals/signal-store",
       "moved": 2
     },
     {
@@ -314,7 +347,7 @@
       "ring": 1,
       "label": "SSR",
       "active": true,
-      "moved": 0
+      "moved": 2
     },
     {
       "quadrant": 2,
@@ -369,6 +402,13 @@
       "quadrant": 3,
       "ring": 0,
       "label": "GitHub Issues",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "AWS Amplify",
       "active": true,
       "moved": 0
     },

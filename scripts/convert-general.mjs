@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const __dirname = import.meta.dirname
 
-const content = fs.readFileSync(path.join(__dirname, '../public/euricom.json'))
+const content = fs.readFileSync(path.join(__dirname, '../public/index.json'))
 const data = JSON.parse(content)
 const today = new Date()
 
@@ -15,6 +15,7 @@ const zalando = {
       ring: mapRing(item.ring),
       label: item.name,
       active: true,
+      link: item.link,
       moved: mapMoved(item.moved, item.isNew),
       // -1 = moved out (triangle pointing down)
       //  0 = not moved (circle)
@@ -24,7 +25,7 @@ const zalando = {
   }),
 }
 
-fs.writeFileSync(path.join(__dirname, '../public/zalando-euricom.json'), JSON.stringify(zalando, null, 2))
+fs.writeFileSync(path.join(__dirname, '../public/zalando-index.json'), JSON.stringify(zalando, null, 2))
 
 function mapMoved(moved, isNew) {
   if (isNew === 'true') return 2

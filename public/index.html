@@ -17,7 +17,7 @@
 <svg id="radar"></svg>
 
 <script>
-fetch('./zalando-euricom.json').then(function(response) {
+fetch('./zalando-index.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
@@ -29,7 +29,7 @@ fetch('./zalando-euricom.json').then(function(response) {
       grid: '#dddde0',
       inactive: "#ddd"
     },
-    title: "Euricom Tech Radar v0.1",
+    title: "Euricom Tech Radar v0.2",
     date: data.date,
     quadrants: [
       { name: "Tools" },

@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node ./scripts/convert-web.mjs react && node ./scripts/convert-web.mjs angular && node ./scripts/convert-web.mjs vuejs && node ./scripts/convert-web.mjs nodejs && node ./scripts/convert-general.mjs",
     "build:dev": "webpack --mode development --config webpack.dev.js",
-    "build:prod": "webpack --mode production --config webpack.prod.js && npm run build:zalando",
-    "build:zalando": "node ./scripts/convert-web.mjs react && node ./scripts/convert-web.mjs angular && node ./scripts/convert-web.mjs vuejs && node ./scripts/convert-web.mjs nodejs && node ./scripts/convert-euricom.mjs",
+    "build:prod": "webpack --mode production --config webpack.prod.js",
     "dev": "webpack-dev-server --mode development --config webpack.dev.js",
     "test": "jest",
     "test:coverage": "jest --coverage",

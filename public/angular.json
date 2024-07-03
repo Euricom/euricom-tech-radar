@@ -53,6 +53,7 @@
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "SSR", "isNew": "true", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Signals", "isNew": "true", "description": "" },
   { "ring": "trial",  "quadrant": "Patterns and Practices", "name": "PWA", "isNew": "false", "description": "" },
+  { "ring": "trial",  "quadrant": "Patterns and Practices", "name": "Declarative programming", "isNew": "false", "description": "https://medium.com/@justin.guckes/a-simple-intro-into-declarative-angular-app-development-using-rxjs-5de5ee82981" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Micro Front-ends", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Built-in control flow", "isNew": "false", "link": "https://v17.angular.io/guide/control_flow" },
 

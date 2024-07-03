@@ -1,6 +1,7 @@
 [
   { "ring": "adopt", "quadrant": "Tools", "name": "ESLint", "isNew": "false", "description": "ESLint is an open-source JavaScript linting utility. Linting is a process that runs a program that will analyze code for potential errors. ESLint helps developers find and fix problems in their JavaScript code without executing it. It checks for common syntax and stylistic errors, such as missing semicolons, unused variables, inconsistent indentation, etc. ESLint is highly configurable, allowing developers to specify their own linting rules. It also includes a pluggable architecture for extending its capabilities. This means you can use plugins to create and manage your own rules to enforce specific coding standards and conventions. ESLint supports both ECMAScript 2015 (ES6) and JSX syntax out of the box, making it a popular choice for developers working with modern JavaScript frameworks like React and Vue.js." },
   { "ring": "adopt", "quadrant": "Tools", "name": "Prettier", "isNew": "false", "description": "" },
+  { "ring": "adopt", "quadrant": "Tools", "name": "TypeScript", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Tools", "name": "VSCode", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Tools", "name": "WebStorm", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Tools", "name": "Lighthouse", "isNew": "false", "description": "" },
@@ -33,6 +34,8 @@
   { "ring": "trial", "quadrant": "Libraries & Frameworks", "name": "Module Federation", "isNew": "false", "description": "" },
   { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "Angular 18", "isNew": "true", "description": "" },
   { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "Native Federation", "isNew": "true", "description": "" },
+  { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "Analog.js", "isNew": "true", "description": "", "link": "https://analogjs.org/" },
+  { "ring": "assess","quadrant": "Libraries & Frameworks", "name": "NgRx SignalStore", "isNew": "true", "description": "", "link":"https://ngrx.io/guide/signals/signal-store" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "AngularJS", "isNew": "false", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Karma", "isNew": "false", "description": "" },
   { "ring": "hold",  "quadrant": "Libraries & Frameworks", "name": "Protractor", "isNew": "false", "description": "" },
@@ -45,7 +48,7 @@
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "E2E Tests", "isNew": "true", "description": "" },
   { "ring": "adopt",  "quadrant": "Patterns and Practices", "name": "Redux", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Patterns and Practices", "name": "CSS Preprocessors", "isNew": "false", "description": "CSS preprocessors are scripting languages that extend the default capabilities of CSS, like scss and less" },
-  { "ring": "trial", "quadrant": "Patterns and Practices", "name": "SSR", "isNew": "false", "description": "" },
+  { "ring": "trial", "quadrant": "Patterns and Practices", "name": "SSR", "isNew": "true", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Signals", "isNew": "true", "description": "" },
   { "ring": "trial",  "quadrant": "Patterns and Practices", "name": "PWA", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Patterns and Practices", "name": "Micro Front-ends", "isNew": "false", "description": "" },
@@ -55,8 +58,9 @@
   { "ring": "adopt", "quadrant": "Platforms & infrastructure", "name": "Azure Static WebApp", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Platforms & infrastructure", "name": "Azure DevOps", "isNew": "false", "description": "" },
   { "ring": "adopt", "quadrant": "Platforms & infrastructure", "name": "GitHub Issues", "isNew": "false", "description": "" },
+  { "ring": "adopt", "quadrant": "Platforms & infrastructure", "name": "AWS Amplify", "isNew": "false", "description": "" },
   { "ring": "trial", "quadrant": "Platforms & infrastructure", "name": "GitHub", "isNew": "false", "description": "" },
-  { "ring": "assess", "quadrant": "Platforms & infrastructure", "name": "AWS", "isNew": "false", "description": "" },
+  { "ring": "assess","quadrant": "Platforms & infrastructure", "name": "AWS", "isNew": "false", "description": "" },
   { "ring": "assess","quadrant": "Platforms & infrastructure", "name": "Digital Ocean", "isNew": "true", "description": "" },
   { "ring": "hold",  "quadrant": "Platforms & infrastructure", "name": "Heroku", "isNew": "false", "description": "", "moved": "out" }
 ]
